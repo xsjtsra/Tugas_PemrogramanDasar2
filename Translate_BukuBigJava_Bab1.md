@@ -1,6 +1,12 @@
 ![](https://user-images.githubusercontent.com/112606990/190147579-49ee998b-3305-4338-9889-ae661eb20967.png)
 
-## `BAB` 1
+Nama : Fatimah Azzahra Maulida
+
+NIM : 2110131220020
+
+---
+
+## `BAB` 1 
 # PENGENALAN
 
 `TUJUAN BAB`
@@ -47,13 +53,13 @@ memperbaiki kesalahan pemrograman, dan cara menggunakan kode semu untuk
 menggambarkan suatu algoritme—deskripsi langkah demi langkah tentang bagaimana
 untuk memecahkan masalah—saat Anda merencanakan program komputer Anda.
 
-## 1.1 Program Komputer
+## **1.1 Program Komputer**
 ---
 Anda mungkin pernah menggunakan komputer untuk bekerja atau bersenang-senang. Banyak orang menggunakan komputer untuk tugas sehari-hari seperti perbankan elektronik atau menulis makalah. Komputer adalah baik untuk tugas-tugas seperti itu. Mereka dapat menangani tugas berulang, seperti menjumlahkan angka atau menempatkan kata-kata di halaman, tanpa merasa bosan atau lelah.
 
 Fleksibilitas komputer adalah fenomena yang cukup menakjubkan. Mesin yang sama dapat menyeimbangkan buku cek Anda, meletakkan kertas istilah Anda, dan bermain game. Sebaliknya, mesin lain melakukan berbagai tugas yang jauh lebih sempit; mobil yang dikendarai dan pemanggang roti bersulang. Komputer dapat melakukan berbagai tugas karena mereka menjalankan tugas yang berbeda program, yang masing-masing mengarahkan komputer untuk bekerja pada tugas tertentu.
 
-Komputer itu sendiri adalah mesin yang menyimpan data (angka, kata-kata, gambar), berinteraksi dengan perangkat (monitor, sistem suara, printer), dan menjalankan program. Sebuah program komputer memberi tahu komputer, secara rinci, urutan langkah-langkah yang diperlukan untuk memenuhi tugas. Komputer fisik dan perangkat periferal secara kolektif disebut perangkat keras. Program yang dijalankan komputer disebut barang lunak.
+Komputer itu sendiri adalah mesin yang menyimpan data (angka, kata-kata, gambar), berinteraksi dengan perangkat (monitor, sistem suara, printer), dan menjalankan program. Sebuah **program komputer** memberi tahu komputer, secara rinci, urutan langkah-langkah yang diperlukan untuk memenuhi tugas. Komputer fisik dan perangkat periferal secara kolektif disebut **perangkat keras**. Program yang dijalankan komputer disebut **perangkat lunak**.
 Program komputer saat ini sangat canggih sehingga sulit dipercaya bahwa mereka terdiri dari instruksi yang sangat primitif. Instruksi tipikal mungkin satu dari berikut ini:
 
 - Letakkan titik merah pada posisi layar tertentu.
@@ -62,28 +68,34 @@ Program komputer saat ini sangat canggih sehingga sulit dipercaya bahwa mereka t
 
 Pengguna komputer memiliki ilusi interaksi yang lancar karena sebuah program berisi sejumlah besar instruksi semacam itu, dan karena komputer dapat mengeksekusinya di kecepatan luar biasa.
 
-Tindakan merancang dan mengimplementasikan program komputer disebut pemrograman. Dalam buku ini, Anda akan belajar cara memprogram komputer yaitu cara mengarahkan komputer untuk menjalankan tugas.
+Tindakan merancang dan mengimplementasikan program komputer disebut **pemrograman**. Dalam buku ini, Anda akan belajar cara memprogram komputer yaitu cara mengarahkan komputer untuk menjalankan tugas.
 Untuk menulis game komputer dengan efek gerakan dan suara atau pengolah kata yang mendukung font dan gambar mewah adalah tugas kompleks yang membutuhkan tim yang terdiri dari banyak orang programmer yang sangat terampil. Upaya pemrograman pertama Anda akan lebih biasa. Konsep dan keterampilan yang Anda pelajari dalam buku ini membentuk fondasi penting, dan Anda tidak boleh kecewa jika program pertama Anda tidak menyaingi sophis ticated perangkat lunak yang akrab bagi Anda. Sebenarnya, Anda akan menemukan bahwa ada sensasi yang luar biasa bahkan dalam tugas pemrograman sederhana. Ini adalah pengalaman yang luar biasa untuk melihat komputerdengan tepat dan cepat melaksanakan tugas yang akan memakan waktu berjam-jam kerja keras, untuk membuat perubahan kecil dalam program yang mengarah pada perbaikan segera, dan untuk melihat komputer menjadi perpanjangan dari kekuatan mental Anda.
 
 1. Apa yang diperlukan untuk memutar musik di komputer?
 2. Mengapa pemutar CD kurang fleksibel dibandingkan komputer?
 3. Mengapa pemutar CD kurang fleksibel dibandingkan komputer?
 
-## 1.2 Anatomi Komputer
+## **1.2 Anatomi Komputer**
 
 Untuk memahami proses pemrograman, Anda harus memiliki pemahaman dasar dari blok bangunan yang membentuk komputer. Kami akan melihat secara pribadi komputer. Komputer yang lebih besar memiliki komponen yang lebih cepat, lebih besar, atau lebih kuat, tetapimereka pada dasarnya memiliki desain yang sama.
 
-Di jantung komputer terletak pusatnyaunit pemrosesan (CPU) (lihat Gambar 1). Bagian dalam pengkabelan CPU sangat rumit.Misalnya, prosesor Intel Core (populer CPU untuk per komputer pribadi pada saat tulisan ini) terdiri dari beberapa ratus juta elemen struktural, yang disebut transistor.
+Di jantung komputer terletak **pusatnya unit pemrosesan (CPU)** (lihat Gambar 1). Bagian dalam pengkabelan CPU sangat rumit.Misalnya, prosesor Intel Core (populer CPU untuk per komputer pribadi pada saat tulisan ini) terdiri dari beberapa ratus juta elemen struktural, yang disebut transistor.
+
+![a](https://user-images.githubusercontent.com/112606990/190206386-2afad0cf-5ede-4908-bdb7-482407223d24.jpg)
 
 CPU melakukan kontrol program dan data pengolahan. Artinya, CPU menempatkan dan mengeksekusi instruksi program; itu melaksanakan operasi aritmatika seperti penjumlahan, pengurangan,perkalian, dan pembagian; itu mengambil datadari memori eksternal atau perangkat dan tempatdata yang diproses ke dalam penyimpanan.
 
-Ada dua macam penyimpanan. Penyimpanan utama,atau memori, dibuat dari sirkuit elektronik yang dapat menyimpan data, asalkan:disuplai dengan tenaga listrik. Penyimpanan sekunder, biasanya hard disk (lihat Gambar 2)atau solid-state drive, menyediakan penyimpanan yang lebih lambat dan lebih murah yang bertahan tanpa listrik. Sebuah hard disk terdiri dari piringan berputar, yang dilapisi dengan magnetnbahan. Solid-state drive menggunakan komponen elektronik yang dapat menyimpan informasitanpa daya, dan tanpa bagian yang bergerak.
+Ada dua macam penyimpanan. Penyimpanan utama,atau memori, dibuat dari sirkuit elektronik yang dapat menyimpan data, asalkan:disuplai dengan tenaga listrik. **Penyimpanan sekunder**, biasanya **hard disk** (lihat Gambar 2)atau solid-state drive, menyediakan penyimpanan yang lebih lambat dan lebih murah yang bertahan tanpa listrik. Sebuah hard disk terdiri dari piringan berputar, yang dilapisi dengan magnetnbahan. Solid-state drive menggunakan komponen elektronik yang dapat menyimpan informasitanpa daya, dan tanpa bagian yang bergerak.
 
-Untuk berinteraksi dengan pengguna manusia, komputer membutuhkan perangkat periferal. Komputer mentransmisikan informasi (disebut output) kepada pengguna melalui layar tampilan, speaker, dan printer. Pengguna dapat memasukkan informasi (disebut input) untuk komputerdengan menggunakan keyboard atau alat penunjuk seperti mouse.
+![s](https://user-images.githubusercontent.com/112606990/190206463-cdd9f999-d69f-403b-8d3e-062fda35358d.jpg)
 
-Beberapa komputer adalah unit mandiri, sedangkan yang lain saling berhubungan melalui jaringan. Melalui kabel jaringan, komputer dapat membaca data dan program dari lokasi penyimpanan pusat atau mengirim data ke komputer lain. Untuk penggunadari komputer jaringan, bahkan mungkin tidak jelas data mana yang berada di komputeritu sendiri dan yang ditransmisikan melalui jaringan.
+Untuk berinteraksi dengan pengguna manusia, komputer membutuhkan perangkat periferal. Komputer mentransmisikan informasi (_disebut output_) kepada pengguna melalui layar tampilan, speaker, dan printer. Pengguna dapat memasukkan informasi (_disebut input_) untuk komputerdengan menggunakan keyboard atau alat penunjuk seperti mouse.
+
+Beberapa komputer adalah unit mandiri, sedangkan yang lain saling berhubungan melalui **jaringan**. Melalui kabel jaringan, komputer dapat membaca data dan program dari lokasi penyimpanan pusat atau mengirim data ke komputer lain. Untuk penggunadari komputer jaringan, bahkan mungkin tidak jelas data mana yang berada di komputeritu sendiri dan yang ditransmisikan melalui jaringan.
 
 Gambar 3 memberikan gambaran skematis arsitektur komputer pribadi. Instruksi dan data program (seperti teks, angka, audio, atau video) berada di sekunder penyimpanan atau di tempat lain di jaringan. Ketika sebuah program dimulai, instruksinyadibawa ke memori, di mana CPU dapat membacanya. CPU membaca dan mengeksekusi satu instruksi pada suatu waktu. Seperti yang diarahkan oleh instruksi ini, CPU membacadata, memodifikasinya, dan menulisnya kembali ke memori atau penyimpanan sekunder. Beberapa programinstruksi akan menyebabkan CPU menempatkan titik-titik pada layar tampilan atau printer atau kegetaran speakernya. Karena tindakan ini terjadi berkali-kali dan dengan kecepatan tinggi,pengguna manusia akan melihat gambar dan suara. Beberapa instruksi program membaca penggunamasukan dari keyboard, mouse, sensor sentuh, atau mikrofon. Analisis programsifat input ini dan kemudian mengeksekusi instruksi yang sesuai berikutnya.
+
+![d](https://user-images.githubusercontent.com/112606990/190206546-b7f07484-2952-4b66-ba3e-0e09072db48b.jpg)
 
 4. Di mana program disimpan saat sedang tidak berjalan?
 5. Bagian komputer mana yang melakukan operasi aritmatika, seperti penjumlahan dan perkalian?
@@ -99,23 +111,23 @@ Mengetahui tentang komputer dan cara memprogramnya telah menjadi keterampilan pe
 
 Ketika komputer, besar dan kecil, menjadi semakin tertanam dalam kehidupan kita sehari-hari, semakin penting bagi setiap orang untuk memahami cara kerjanya, dan cara bekerja dengannya.  Saat Anda menggunakan buku ini untuk mempelajari cara memprogram komputer, Anda akan mengembangkan pemahaman yang baik tentang dasar-dasar komputasi yang akan membuat Anda menjadi warga negara yang lebih berpengetahuan dan, mungkin, seorang profesional komputasi.
 
-## 1.3 Bahasa Pemrogramman Java
+## **1.3 Bahasa Pemrogramman Java**
 ---
-Untuk menulis program komputer, Anda perlu memberikan urutan instruksi yang dapat dieksekusi oleh CPU. Sebuah program komputer terdiri dari sejumlah besar program instruksi CPU sederhana, dan membosankan juga rawan untuk kesalahan untuk menentukannya satu persatu. Karena alasan itu, bahasa pemrograman tingkat tinggi telah dibuat. Dalam bahasa tingkat tinggi, Anda menentukan tindakan yang harus dilakukan programnya. Penyusun menerjemahkan instruksi tingkat tinggi ke dalam instruksi yang lebih rinci (disebut kode mesin) yang dibutuhkan oleh CPU. Banyak bahasa pemrograman yang berbeda telah dirancang untuk tujuan yang berbeda.
+Untuk menulis program komputer, Anda perlu memberikan urutan instruksi yang dapat dieksekusi oleh CPU. Sebuah program komputer terdiri dari sejumlah besar program instruksi CPU sederhana, dan membosankan juga rawan untuk kesalahan untuk menentukannya satu persatu. Karena alasan itu, **bahasa pemrograman tingkat tinggi** telah dibuat. Dalam bahasa tingkat tinggi, Anda menentukan tindakan yang harus dilakukan programnya. Penyusun menerjemahkan instruksi tingkat tinggi ke dalam instruksi yang lebih rinci (**disebut kode mesin**) yang dibutuhkan oleh CPU. Banyak bahasa pemrograman yang berbeda telah dirancang untuk tujuan yang berbeda.
 
 Pada tahun 1991, sebuah kelompok yang dipimpin oleh James Gosling dan Patrick Naughton di Sun Microsystems merancang sebuah bahasa pemrograman, berkode nama “Green”, untuk kegunaan di perangkat konsumen, seperti “set-top” televisi cerdas. Bahasanya dirancang untuk sederhana, aman, dan dapat digunakan oleh berbagai tipe prosesor yang berbeda. Tidak ada pelanggan yang pernah ditemukan untuk teknologi ini.
 
-Gosling menceritakan pada tahun 1994 tim menyadari “Kita bisa menulis browser yang sangat keren. Itu adalah salah satu dari sedikit hal dalam arus utama klien/server yang membutuhkan beberapa hal aneh yang telah kami lakukan: arsitektur netral, waktu nyata, andal, aman.” Java diperkenalkan kepada orang banyak yang antusias di pameran SunWorld pada tahun 1995, bersama dengan browser yang menjalankan applet—kode Java yang dapat ditemukan di mana saja di Internet. Gambar di sebelah kanan menunjukkan contoh khas applet.
+Gosling menceritakan pada tahun 1994 tim menyadari “Kita bisa menulis browser yang sangat keren. Itu adalah salah satu dari sedikit hal dalam arus utama klien/server yang membutuhkan beberapa hal aneh yang telah kami lakukan: arsitektur netral, waktu nyata, andal, aman.” Java diperkenalkan kepada orang banyak yang antusias di pameran SunWorld pada tahun 1995, bersama dengan browser yang menjalankan **applets**—kode Java yang dapat ditemukan di mana saja di Internet. Gambar di sebelah kanan menunjukkan contoh khas applet.
 
-Sejak saat itu, Java telah berkembang dengan kecepatan yang fenomenal. Programmer telah menggunakan bahasa ini karena lebih mudah digunakan daripada saingan terdekatnya, C++. Selain itu, Java memiliki perpustakaan yang kaya yang memungkinkan untuk menulis program portabel yang dapat melewati sistem operasi berpemilik—fitur yang sangat dicari oleh mereka yang ingin menjadi independen dari sistem berpemilik tersebut dan diperjuangkan dengan sengit oleh vendor mereka.
+Sejak saat itu, Java telah berkembang dengan kecepatan yang fenomenal. Programmer telah menggunakan bahasa ini karena lebih mudah digunakan daripada saingan terdekatnya, C++. Selain itu, Java memiliki **perpustakaan** yang kaya yang memungkinkan untuk menulis program portabel yang dapat melewati sistem operasi berpemilik—fitur yang sangat dicari oleh mereka yang ingin menjadi independen dari sistem berpemilik tersebut dan diperjuangkan dengan sengit oleh vendor mereka.
 
 Karena Java dirancang untuk internet, ia mempunyai dua atrbut yang membuatnya sangat cocok untuk pemula: keamanan dan portabilitas.
 
-![]()
+![ff](https://user-images.githubusercontent.com/112606990/190206656-bcdbf91e-03a0-447c-ab77-ed121498cbec.jpg)
 
 Java dirancang sehingga siapapun dapat menjalankan program di browser mereka tanpa takut. Fitur keamanan bahasa Java memastikan program dihentikan apabila mencoba untuk melakukan sesuatu membahayakan. Memiliki lingkungan yang aman juga membantu bagi siapapun yang mempelajari Java. Disaat Anda melakukan error yang mengakibatkan perilaku membahayakan, program Anda dihentikan dan Anda menerima laporan eror yang akurat.
 
-Manfaat lain dari Java adalah portabilitas. Program Java yang sama akan jalan, tanpa perubahan, pada Windows, UNIX, Linux, atau Macintosh. Untuk mencapai portabilitas, penyusun Java tidak menerjemahkan program-program Java langsung ke dalam instruksi CPU. Melainkan, program Java yang tersusun memuat instruksi untuk mesin virtual Java, sebuah program yang menyimulasikan CPU nyata. Portabilitas adalah manfaat lain untuk murid pemula. Anda tidak harus belajar bagaimana cara menulis program untuk platform yang berbeda.
+Manfaat lain dari Java adalah portabilitas. Program Java yang sama akan jalan, tanpa perubahan, pada Windows, UNIX, Linux, atau Macintosh. Untuk mencapai portabilitas, penyusun Java tidak menerjemahkan program-program Java langsung ke dalam instruksi CPU. Melainkan, program Java yang tersusun memuat instruksi untuk **mesin virtual** Java, sebuah program yang menyimulasikan CPU nyata. Portabilitas adalah manfaat lain untuk murid pemula. Anda tidak harus belajar bagaimana cara menulis program untuk platform yang berbeda.
 
 Saat ini, Java telah ditetapkan sebagai salah satu bahasa yang paling penting untuk pemrograman umum serta untuk instruksi ilmu komputer. Namun, meskipun Java adalah bahasa yang baik untuk pemula, tapi tidak sempurna, karena tiga alasan.
 
@@ -134,11 +146,13 @@ Dengan  menggunakan buku ini, Anda diharapkan untuk belajar banyak tentang bahas
 
 Banyak siswa menemukan bahwa alat yang mereka butuhkan sebagai pemrogram sangat berbeda dari perangkat lunak yang mereka kenal. Anda harus meluangkan waktu untuk membiasakan diri dengan lingkungan pemrograman Anda. Karena sistem komputer sangat bervariasi, buku ini hanya dapat memberikan garis besar langkah-langkah yang perlu Anda ikuti. Merupakan ide bagus untuk Anda berpartisipasi dalam lab praktik, atau meminta teman yang berpengetahuan luas untuk memberi Anda penjelasan.
 
+![g](https://user-images.githubusercontent.com/112606990/190206766-8c22ecd8-da9c-474f-8e61-0160be3454dd.jpg)
+
 Langkah1 Mulai lingkungan pengembangan Java.
 
-Sistem komputer sangat berbeda dalam hal ini. Pada banyak komputer terdapat lingkungan pengembangan terintegrasi di mana Anda dapat menulis dan menguji program Anda.
+Sistem komputer sangat berbeda dalam hal ini. Pada banyak komputer terdapat **lingkungan pengembangan terintegrasi** di mana Anda dapat menulis dan menguji program Anda.
 
-Di komputerAnda pertama kali meluncurkan editor, sebuah program yang berfungsi seperti pengolah kata, di mana Anda dapat memasukkan instruksi Java Anda; Anda kemudian membuka jendela konsol dan ketik perintah untuk menjalankan program Anda. Anda perlu mencari tahu bagaimana memulai dengan lingkungan Anda.
+Di komputer Anda pertama kali meluncurkan **editor**, sebuah program yang berfungsi seperti pengolah kata, di mana Anda dapat memasukkan instruksi Java Anda; Anda kemudian membuka _jendela konsol_ dan ketik perintah untuk menjalankan program Anda. Anda perlu mencari tahu bagaimana memulai dengan lingkungan Anda.
 
 Langkah2Tulis sebuah program yang sederhana.
 
@@ -166,7 +180,9 @@ Apa pun lingkungan pemrograman yang Anda gunakan, Anda memulai aktivitas Anda de
 
 Buat file baru dan beri namaHelloPrinter.java, menggunakan langkah-langkah yang sesuai untuk lingkungan Anda. (Jika lingkungan Anda mengharuskan Anda memberikan nama proyek selain nama file, gunakan namahello untuk proyek tersebut.) Masukkan instruksi program persis seperti yang diberikan di atas. Atau, temukan salinan elektronik dalam kode pendamping buku ini dan tempelkan ke editor Anda.
 
-Saat Anda menulis program ini, perhatikan baik-baik berbagai simbol, dan ingatlah bahwa Java sensitif terhadap huruf besar-kecil. Anda harus memasukkan huruf besar dan kecil persis seperti yang muncul dalam daftar program. Anda tidak dapat mengetikMAIN atauPrintLn. Jika Anda tidak hati-hati, Anda akan mengalami masalah—lihat Kesalahan Umum 1.2.
+![h](https://user-images.githubusercontent.com/112606990/190206935-723bca9c-3ee5-46ac-bbcf-72f7dffcfcb9.jpg)
+
+Saat Anda menulis program ini, perhatikan baik-baik berbagai simbol, dan ingatlah bahwa Java **sensitif terhadap huruf besar-kecil**. Anda harus memasukkan huruf besar dan kecil persis seperti yang muncul dalam daftar program. Anda tidak dapat mengetikMAIN atauPrintLn. Jika Anda tidak hati-hati, Anda akan mengalami masalah—lihat Kesalahan Umum 1.2.
 
 Langkah3 Jalankan programnya.
 
@@ -180,10 +196,16 @@ Untuk menjalankan program Anda, kompiler Java menerjemahkan file sumber Anda (ya
 
 Langkah4 Rapikan pekerjaamu.
 
-Sebagai seorang programmer, Anda menulis program, mencobanya, dan memperbaikinya. Anda menyimpan program Anda dalam file. File disimpan dalam folder atau direktori. Sebuah folder dapat berisi
+Sebagai seorang programmer, Anda menulis program, mencobanya, dan memperbaikinya. Anda menyimpan program Anda dalam file. File disimpan dalam **folder** atau **direktori**. Sebuah folder dapat berisi
+
+![q](https://user-images.githubusercontent.com/112606990/190207021-fabae3fc-3558-46a4-abad-e03f99d443c6.jpg)![IMG_3100](https://user-images.githubusercontent.com/112606990/190207032-08995529-f697-4eb0-8098-8889255fc59f.jpg)
+![n](https://user-images.githubusercontent.com/112606990/190207042-efc502ae-8ebd-4623-9af6-87124124d099.jpg)
+
 
 file serta folder lain, yang dengan sendirinya dapat berisi lebih banyak file dan folder 
 (lihat Gambar 7). Hirarki ini bisa sangat besar, dan Anda tidak perlu khawatir dengan semua cabangnya. Namun, Anda harus membuat folder untuk mengatur pekerjaan Anda. Sebaiknya buat folder terpisah untuk pro-tugas mata kuliah tata bahasa. Di dalam folder itu, buat folder terpisah untuk setiap program.
+
+![w](https://user-images.githubusercontent.com/112606990/190207086-4dca0656-6177-41e2-81e1-5b7128f2d99c.jpg)
 
 Beberapa lingkungan pemrograman menempatkan program Anda ke lokasi default jika Anda tidak menentukan folder sendiri. Dalam hal ini, Anda perlu mencari tahu di mana file-file itu berada.
 
@@ -203,10 +225,12 @@ YouAnda akan menghabiskan banyak waktu untuk membuat dan meningkatkan program Ja
 - Periksa cadangan Anda sesekali. Periksa kembali apakah cadangan Anda berada di tempat yang Anda pikirkan. Tidak ada yang lebih membuat frustrasi daripada mengetahui bahwa cadangan tidak ada saat Anda membutuhkannya.
 - Santai, lalu pulihkan. Saat Anda kehilangan file dan perlu memulihkannya dari cadangan, kemungkinan besar Anda berada dalam keadaan gelisah dan tidak bahagia. Ambil napas dalam-dalam dan pikirkan proses pemulihan sebelum Anda mulai. Bukan hal yang aneh bagi pengguna komputer yang gelisah untuk menghapus cadangan terakhir ketika mencoba memulihkan file yang rusak.
 
-## 1.5 Menganalisis Program Pertama Anda
+## **1.5 Menganalisis Program Pertama Anda**
 ---
 Pada bagian ini, kita akan menganalisis program Java pertama secara rinci. Di sini lagi adalah
 Kode sumber:
+
+![e](https://user-images.githubusercontent.com/112606990/190207151-addb48e6-ef5e-4d87-b9c0-ec3377effbd4.jpg)
 
 **section_5/HelloPrinter.java**
 
@@ -236,15 +260,15 @@ public static void main(String[] args)
 
 }
 
-mendeklarasikan metode yang disebut main. Sebuah metode berisi kumpulan pemrograman
+mendeklarasikan **metode** yang disebut main. Sebuah metode berisi kumpulan pemrograman
 instruksi yang menjelaskan bagaimana melaksanakan tugas tertentu. Setiap aplikasi Java
-harus memiliki metode utama. Sebagian besar program Java berisi metode lain selain utama,
+harus memiliki **metode utama**. Sebagian besar program Java berisi metode lain selain utama,
 dan Anda akan melihat di Bab 3 cara menulis metode lain.
 
 Istilah statis dijelaskan secara lebih rinci dalam Bab 8, dan arti dari
 String[] args dibahas dalam Bab 11. Saat ini, cukup pertimbangkan
 
-public class ClassName
+public class _ClassName_
 
 { 
 
@@ -260,8 +284,10 @@ public class ClassName
 
 sebagai bagian dari "pipa" yang diperlukan untuk membuat program Java. Program pertama kami memiliki semua instruksi di dalam metode utama kelas.
 
-Metode utama berisi satu atau lebih instruksi yang disebut pernyataan. Setiap statemen diakhiri dengan titik koma (;). Ketika sebuah program berjalan, pernyataan dalam metode utama
+Metode utama berisi satu atau lebih **instruksi** yang disebut pernyataan. Setiap statemen diakhiri dengan titik koma (;). Ketika sebuah program berjalan, pernyataan dalam metode utama
 dijalankan satu per satu.
+
+![r](https://user-images.githubusercontent.com/112606990/190207275-3f5cff50-6d60-43b0-8aa1-c9c39c3f2e4f.jpg)
 
 **Sintaksis 1.1** Program Java
 
@@ -366,7 +392,7 @@ Obatnya sederhana. Pindai setiap pernyataan untuk tanda titik koma, seperti yang
 periksa apakah setiap kalimat bahasa Inggris diakhiri dengan tanda titik. Namun, jangan tambahkan titik koma di
 akhir kelas publik Halo atau public static void main. Garis-garis ini bukan pernyataan.
 
-## 1.6 Kesalahan
+## **1.6 Kesalahan**
 ---
 Bereksperimenlah sedikit dengan program HelloPrinter.
 Apa yang terjadi jika Anda membuat kesalahan pengetikan seperti
@@ -380,9 +406,9 @@ mengatakan bahwa itu tidak tahu apa yang Anda maksud dengan ou. Itu
 kata-kata yang tepat dari pesan kesalahan tergantung
 di lingkungan pengembangan Anda, tetapi mungkin saja
 sesuatu seperti "Tidak dapat menemukan simbol ou". Ini adalah sebuah
-kesalahan waktu kompilasi. Ada yang salah menurut aturan bahasa dan kompilernya
+**kesalahan waktu kompilasi**. Ada yang salah menurut aturan bahasa dan kompilernya
 menemukannya. Untuk alasan ini, kesalahan waktu kompilasi adalah
-sering disebut kesalahan sintaks. Ketika kompilator
+sering disebut **kesalahan sintaks**. Ketika kompilator
 menemukan satu atau lebih kesalahan, ia menolak untuk menerjemahkan program ke mesin virtual Java
 instruksi, dan sebagai akibatnya Anda tidak memiliki program yang dapat dijalankan. Kamu harus
 perbaiki kesalahan dan kompilasi lagi. Faktanya, kompilernya cukup pilih-pilih, dan itu umum
@@ -403,11 +429,11 @@ dan jalankan, tetapi outputnya akan salah. Ini akan mencetak
 
 Halo, Kata!
 
-Ini adalah kesalahan run-time. Program ini secara sintaksis benar dan melakukan sesuatu,
+Ini adalah **kesalahan run-time**. Program ini secara sintaksis benar dan melakukan sesuatu,
 tetapi tidak melakukan apa yang seharusnya dilakukan. Karena kesalahan run-time disebabkan oleh
-kelemahan logis dalam program, mereka sering disebut kesalahan logika.
+kelemahan logis dalam program, mereka sering disebut **kesalahan logika**.
 
-Kesalahan run-time khusus ini tidak menyertakan pesan kesalahan. Itu hanya menghasilkan output yang salah. Beberapa jenis kesalahan run-time sangat parah sehingga menghasilkan pengecualian: pesan kesalahan dari mesin virtual Java. Misalnya, jika
+Kesalahan run-time khusus ini tidak menyertakan pesan kesalahan. Itu hanya menghasilkan output yang salah. Beberapa jenis kesalahan run-time sangat parah sehingga menghasilkan **pengecualian**: pesan kesalahan dari mesin virtual Java. Misalnya, jika
 program Anda menyertakan pernyataan
 
 System.out.println(1 / 0);
@@ -460,7 +486,7 @@ Jika Anda mendapatkan pesan kesalahan yang tampaknya menunjukkan bahwa kompiler 
 trek yang salah, periksa ejaan dan kapitalisasi. Jika Anda salah mengeja nama simbol
 (misalnya, ou alih-alih keluar), kompiler akan menghasilkan pesan seperti "tidak dapat menemukan sym bol ou". Pesan kesalahan itu biasanya merupakan petunjuk bagus bahwa Anda membuat kesalahan ejaan.
 
-## 1.7 PENYELESAIAN MASALAH: DESAIN ALGORITMA
+## **1.7 PENYELESAIAN MASALAH: DESAIN ALGORITMA**
 ---
 Anda akan segera belajar bagaimana memprogram perhitungan dan pengambilan keputusan di Java. Tetapi sebelum kita melihat mekanisme penerapan perhitungan di bab berikutnya, mari kita pertimbangkan bagaimana Anda dapat menjelaskan langkah-langkah yang diperlukan untuk menemukan solusi dari suatu masalah.
 
@@ -488,58 +514,63 @@ Anda memasukkan $10.000 ke dalam rekening bank yang menghasilkan bunga 5 persen 
 
 Bisakah Anda memecahkan masalah ini dengan tangan? Tentu, Anda bisa. Anda mengetahui keseimbangannya sebagai berikut:
 
+![t](https://user-images.githubusercontent.com/112606990/190207626-1d262659-d254-4498-a15f-2d486730fd7f.jpg)
+[Translate_BukuBigJava_Bab1.md](https://github.com/xsjtsra/Tugas_PemrogramanDasar2/files/9568087/Translate_BukuBigJava_Bab1.md)
+
 Anda terus berjalan sampai saldo setidaknya $20.000. Kemudian angka terakhir di tahun inikolom adalah jawabannya.
 
 Tentu saja, melakukan perhitungan ini sangat membosankan bagi Anda atau adik laki-laki Anda. Tetapi komputer sangat pandai melakukan perhitungan berulang dengan cepat dan tanpa cacat. Yang penting bagi komputer adalah deskripsi langkah-langkah untuk menemukan solusi. Setiap langkah harus jelas dan tidak ambigu, tidak memerlukan tebak-tebakan. Berikut adalah deskripsi seperti itu:
 
-Setel tahun ke 0, saldo ke 10.000.
+**Setel tahun ke 0, saldo ke 10.000.**
 
-Ketika saldo kurang dari $20,000
+![v](https://user-images.githubusercontent.com/112606990/190207692-cbae02a0-5467-45a8-b3a0-ccb97aabeb03.jpg)
 
-Tambahkan 1 ke tabel tahun.
+**Ketika saldo kurang dari $20,000**
 
-Tetapkan bunga ke saldo x 0,05 (yaitu, bunga 5 persen).
+**Tambahkan 1 ke tabel tahun.**
 
-Tambahkan bunga ke saldo
+**Tetapkan bunga ke saldo x 0,05 (yaitu, bunga 5 persen).**
 
-Laporan tahun sebagai jawabannya.
+**Tambahkan bunga ke saldo laporan tahun sebagai jawabannya.**
 
-Langkah-langkah ini termasuk dalam bahasa yang belum dapat dipahami oleh komputer, tapi kamu akan segera belajar bagaimana merumuskannya dalam Java. Deskripsi ini disebut dengan pseudocode. Kami membahas aturan untuk menulis pseudocode di bagian selanjutnya.
+![b](https://user-images.githubusercontent.com/112606990/190207759-5a7b8b12-cc9a-423a-a38c-ea1b81e0a62e.jpg)
+
+Langkah-langkah ini termasuk dalam bahasa yang belum dapat dipahami oleh komputer, tapi kamu akan segera belajar bagaimana merumuskannya dalam Java. Deskripsi ini disebut dengan **pseudocode**. Kami membahas aturan untuk menulis pseudocode di bagian selanjutnya.
 
 ### **1.7.3 Pseudocode(Kode Semu)**
 Tidak ada persyaratan ketat untuk pseudocode karena dibaca oleh manusia,bukan program komputer. Berikut adalah jenis-jenis pernyataan pseudocode dan bagaimana kita akan menggunakan penerapannya dalam buku ini:
 
 - Gunakan pernyataan seperti berikut ini untuk menjelaskan bagaimana suatu nilai ditetapkan atau diubah:
 
-    biaya total = harga beli + biaya operasi
+    **biaya total = harga beli + biaya operasi**
 
-    Kalikan nilai saldo dengan 1,05.
+    **Kalikan nilai saldo dengan 1,05.**
 
-    Hapus karakter pertama dan terakhir dari kata.
+    **Hapus karakter pertama dan terakhir dari kata.**
 - Jelaskan keputusan dan pengulangan sebagai berikut:
 
-    Jika total biaya 1 < total biaya 2
+    **Jika total biaya 1 < total biaya 2**
 
-    Ketika saldo kurang dari $20,000
+    **Ketika saldo kurang dari $20,000**
 
-    Untuk setiap gambar dalam urutan
+    **Untuk setiap gambar dalam urutan**
 
     Gunakan lekukan untuk menunjukkan pernyataan mana yang harus dipilih atau diulang:
 
-    Untuk setiap mobil
+    **Untuk setiap mobil**
 
-    biaya operasi = 10 x biaya bahan bakar tahunan
+    **biaya operasi = 10 x biaya bahan bakar tahunan**
 
-    biaya total = harga
+    **biaya total = harga**
     
-    beli + biaya operasi
+    **beli + biaya operasi**
 
     Di sini, lekukan menunjukkan bahwa kedua pernyataan harus dieksekusi untuk setiap mobil.
 - Tunjukkan hasil dengan pernyataan seperti:
 
-    Pilih mobil1.
+    **Pilih mobil1.**
 
-    Laporkan tahun sebagai jawabannya.
+    **Laporkan tahun sebagai jawabannya.**
 
 ### **1.7.4 Dari Algoritma ke Program**
 
@@ -553,35 +584,35 @@ Oleh karena itu, kami telah menemukan algoritme untuk menyelesaikan masalah inve
 22. Misalkan operator ponsel Anda menagih Anda $29,95 hingga 300 menit panggilan, dan $0,45 untuk setiap menit tambahan, ditambah pajak dan biaya 12,5 persen. Memberi algoritma untuk menghitung biaya bulanan dari sejumlah menit tertentu.
 23. Perhatikan pseudocode berikut untuk menemukan foto paling menarik dari urutan foto:
 
-    Pilih foto pertama dan beri nama "yang terbaik sejauh ini".
+    **Pilih foto pertama dan beri nama "yang terbaik sejauh ini".**
 
-    Untuk setiap foto dalam urutan
+    **Untuk setiap foto dalam urutan**
 
-    Jika itu lebih menarik daripada "terbaik sejauh ini"
+    **Jika itu lebih menarik daripada "terbaik sejauh ini"**
 
-    Buang "yang terbaik 
-    sejauh ini".
+    **Buang "yang terbaik 
+    sejauh ini".**
 
-    Sebut foto ini "yang terbaik sejauh ini".
+    **Sebut foto ini "yang terbaik sejauh ini".**
 
-    Foto yang disebut "yang terbaik sejauh ini" adalah foto paling 
-    menarik dalam urutan itu.
+    **Foto yang disebut "yang terbaik sejauh ini" adalah foto paling 
+    menarik dalam urutan itu.**
 
     Apakah ini algoritma yang akan menemukan foto paling menarik?
 
 24. Misalkan setiap foto di Self Check 23 memiliki label harga. Berikan algoritma untuk menemukan foto yang paling mahal.
 25. Misalkan Anda memiliki urutan acak kelereng hitam dan putih dan ingin atur ulang sehingga kelereng hitam dan putih dikelompokkan bersama. Mempertimbangkan algoritma ini:
 
-    Ulangi sampai terurut
+    **Ulangi sampai terurut**
 
-    Temukan kelereng hitam pertama yang didahului oleh kelereng putih, dan alihkan.
+    **Temukan kelereng hitam pertama yang didahului oleh kelereng putih, dan alihkan.**
 
     Apa yang dilakukan algoritma dengan urutan mlmll? Sebutkan langkah-langkahnya sampai algoritma berhenti.
 26. Misalkan Anda memiliki urutan acak kelereng berwarna. Pertimbangkan kode semu ini:
 
-    Ulangi sampai terurut
+    **Ulangi sampai terurut**
 
-    Temukan kelereng pertama yang didahului oleh kelereng dengan warna berbeda, dan ganti.
+    **Temukan kelereng pertama yang didahului oleh kelereng dengan warna berbeda, dan ganti.**
 
     Mengapa ini bukan algoritma?
 
@@ -593,27 +624,27 @@ Ini adalah yang pertama dari banyak cara bagian dalam buku ini yang memberikan A
 
 Sebelum Anda siap untuk menulis sebuah program di Java, Anda perlu mengembangkan metode algorithma untuk tiba di solusi untuk masalah tertentu menggambarkan algoritma di pseudocode urutan langkah-langkah yang tepat dirumuskan dalam bahasa Inggris untuk menggambarkan, kami akan merancang sebuah algoritma untuk masalah ini:
 
-Pernyataan masalah	 Anda memiliki pilihan untuk membeli salah satu dari dua mobil. Satu lebih hemat bahan bakar daripada yang lain, tetapi juga lebih mahal. 
+**Pernyataan masalah**	 Anda memiliki pilihan untuk membeli salah satu dari dua mobil. Satu lebih hemat bahan bakar daripada yang lain, tetapi juga lebih mahal. 
 
 Anda tahu harga dan efisiensi bahan bakar (dalam mil per galon, mpg) dari kedua mobil. Anda berencana untuk menyimpan mobil selama sepuluh tahun. Asumsikan harga $4 per galon gas dan penggunaan 15.000 mil per tahun. Anda akan membayar tunai untuk mobil dan tidak khawatir tentang biaya pembiayaan. Mobil mana yang lebih baik?
 
 Langkah 1 Tentukan input dan output. 
 
 Dalam contoh soal kami, kami memiliki input ini:
-- Harga beli1 dan efisiensi bahan bakar1, harga dan efisiensi bahan bakar (dalam mpg) mobil pertama.
-- Harga beli2 dan efisiensi bahan bakar2, harga dan efisiensi bahan bakar mobil kedua.
+- **Harga beli1 dan efisiensi bahan bakar1**, harga dan efisiensi bahan bakar (dalam mpg) mobil pertama.
+- **Harga beli2 dan efisiensi bahan bakar2**, harga dan efisiensi bahan bakar mobil kedua.
 Kami hanya ingin tahu mobil mana yang lebih baik dibeli. Itu adalah keluaran (output) yang diinginkan.
 
 Langkah 2 Memecah masalah menjadi tugas-tugas yang lebih kecil. 
 
 Untuk setiap mobil, kita perlu mengetahui total biaya mengemudinya. Mari kita lakukan perhitungan ini secara terpisah untuk setiap mobil. Setelah kita memiliki total biaya untuk setiap mobil, kita dapat memutuskan mobil mana yang lebih baik.
 
-Total biaya untuk setiap mobil adalah harga beli + biaya operasional.
+Total biaya untuk setiap mobil adalah **harga beli + biaya operasional**.
 
 Kami mengasumsikan penggunaan konstan dan harga gas selama sepuluh tahun, sehingga biaya operasi tergantung pada biaya mengemudi mobil selama satu tahun.
 
-Biaya operasi adalah 10 x biaya bahan bakar tahunan.
-Biaya bahan bakar tahunan adalah harga per galon x bahan bakar tahunan yang dikonsumsi.
+Biaya operasi adalah **10 x biaya bahan bakar tahunan**.
+Biaya bahan bakar tahunan adalah **harga per galon x bahan bakar tahunan yang dikonsumsi**.
 
 Bahan bakar tahunan yang dikonsumsi adalah jarak tempuh tahunan / efisiensi bahan bakar. Misalnya, jika Anda mengendarai mobil sejauh 15.000 mil dan efisiensi bahan bakarnya 15 mil/galon, mobil tersebut mengkonsumsi 1.000 galon.
 
@@ -621,28 +652,28 @@ Langkah 3  Jelaskan setiap subtugas dalam pseudocode.
 
 Dalam uraian Anda, atur langkah-langkahnya sehingga setiap nilai antara dihitung sebelum diperlukan dalam perhitungan lain. Misalnya, daftar langkah:
 
-biaya total = harga pembelian + biaya operasi
-Setelah Anda menghitung biaya operasi. 
+**biaya total = harga pembelian + biaya operasi
+Setelah Anda menghitung biaya operasi.**
 
 Berikut adalah algoritma untuk memutuskan mobilmana yang akan dibeli:
 
-Untuk setiap mobil, hitung total biaya sebagai berikut: 
+**Untuk setiap mobil, hitung total biaya sebagai berikut:**
 
-konsumsi bahan bakar tahunan = jarak tempuh tahunan / efisiensi bahan bakar 
+**konsumsi bahan bakar tahunan = jarak tempuh tahunan / efisiensi bahan bakar** 
 
-biaya bahan bakar tahunan = harga per galon x konsumsi bahan bakar tahunan 
+**biaya bahan bakar tahunan = harga per galon x konsumsi bahan bakar tahunan** 
 
-biaya operasional = 10 x biaya bahan bakar tahunan 
+**biaya operasional = 10 x biaya bahan bakar tahunan** 
 
-total biaya = harga beli + biaya operasional 
+**total biaya = harga beli + biaya operasional** 
 
-Jika total biaya mobil1 < total biaya mobil2
+**Jika total biaya mobil1 < total biaya mobil2**
 
-Pilih mobil1. 
+**Pilih mobil1.** 
 
-Lainnya
+**Lainnya**
 
-Pilih mobil2.
+**Pilih mobil2.**
 
 Langkah 4 Uji pseudocode Anda dengan mengerjakan soal.
 
@@ -654,13 +685,13 @@ Mobil 2: $20.000, 30 mil/galon
 
 Berikut adalah perhitungan biaya mobil pertama:
 
-konsumsi bahan bakar tahunan = jarak tempuh tahunan / efisiensi bahan bakar = 15000 / 50 = 300 
+**konsumsi bahan bakar tahunan = jarak tempuh tahunan / efisiensi bahan bakar = 15000 / 50 = 300** 
 
-biaya bahan bakar tahunan = harga per galon x konsumsi bahan bakar tahunan = 4 x 300 = 1200 
+**biaya bahan bakar tahunan = harga per galon x konsumsi bahan bakar tahunan = 4 x 300 = 1200** 
 
-biaya operasi = 10 x biaya bahan bakar tahunan = 10 x 1200 = 12000 
+**biaya operasi = 10 x biaya bahan bakar tahunan = 10 x 1200 = 12000** 
 
-total biaya = harga pembelian + biaya operasi = 25000 + 12000 = 37000 
+**total biaya = harga pembelian + biaya operasi = 25000 + 12000 = 37000** 
 
 Demikian pula, total biaya untuk mobil kedua adalah $ 40.000. Oleh karena itu, keluaran dari algoritma adalah memilih mobil 1.
 
